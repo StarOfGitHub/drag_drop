@@ -1,24 +1,16 @@
-# Laravel Skill Test
-This is an example application developed for an interview process
+##explanation
 
-## Description
-Create a very simple Laravel web application for task management: -Create task (info to save: task name, priority, timestamps) -Edit task -Delete task -Reorder tasks with drag and drop in the browser. Priority should automatically be updated based on this. #1 priority goes at top, #2 next down and so on. -Tasks should be saved to a mysql table.
+The project is to create a Laravel web application for task management with features such as creating, editing, deleting, and reordering tasks with drag and drop functionality, saving tasks to a MySQL table, and adding project functionality to view tasks associated with a specific project.
 
-BONUS POINT: add project functionality to the tasks. User should be able to select a project from a dropdown and only view tasks associated with that project.
+The method is below:
 
-You will be graded on how well-written & readable your code is, if it works, and if you did it the Laravel way.
+1. composer update
+2. composer install
+3. enter the command "copy .env.example .env"
+4. create new database named laravel
+5. php artisan key:generate
+6. php artisan migrate
+7. php artisan db:seed
+8. php artisan serve
 
-## Installation
-
-### Using composer
-
-Download the ptoject and run
-
-```sh
-composer.phar install
-```
-
-on the root of the project
-
-### If you don't have composer
-You can download it [here](https://getcomposer.org/download/).
+Enjoy yourself with this project!!!!!
